@@ -1,7 +1,6 @@
-import javax.swing.*;
-
 public class Main {
-    public static void main(String[] args) {
-        JOptionPane.showMessageDialog(null, CopyText.ReadTheFile());
+    public static void main(String[] args){
+        PersonFinder ph = new PersonFinder();
+        ph.memberOrNot();
     }
 }
