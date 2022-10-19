@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Best Gym Ever/Best Gym Ever.iml" filepath="$PROJECT_DIR$/Best Gym Ever/Best Gym Ever.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gymlistor/Gymlistor.iml" filepath="$PROJECT_DIR$/Gymlistor/Gymlistor.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Sprint2Inlamning.iml" filepath="$PROJECT_DIR$/.idea/Sprint2Inlamning.iml" />
     </modules>
   </component>
