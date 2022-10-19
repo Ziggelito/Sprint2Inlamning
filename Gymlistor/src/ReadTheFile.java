@@ -10,8 +10,8 @@ import java.nio.file.Paths;
 
 public class ReadTheFile {
     public static String ReadTheFile() {
-        Path list = Paths.get("Best Gym Ever/src/Memberlist.txt");
-        Path list2 = Paths.get("Best Gym Ever/src/Checkins.txt");
+        Path list = Paths.get("C:\\Users\\sixte\\OneDrive\\Documents\\GitHub\\Sprint2Inlamning\\Gymlistor\\src\\Memberlist.txt");
+        Path list2 = Paths.get("C:\\Users\\sixte\\OneDrive\\Documents\\GitHub\\Sprint2Inlamning\\Gymlistor\\src\\visits.txt");
 
         String temp = null;
         try (BufferedReader BuR = Files.newBufferedReader(list);

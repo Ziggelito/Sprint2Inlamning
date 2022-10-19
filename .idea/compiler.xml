@@ -3,6 +3,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Best Gym Ever" options="--add-modules java.desktop --add-exports java.base/jdk.internal.module=ALL-UNNAMED" />
+      <module name="Gymlistor" options="--add-exports java.base/jdk.internal.module=ALL-UNNAMED" />
     </option>
   </component>
 </project>
