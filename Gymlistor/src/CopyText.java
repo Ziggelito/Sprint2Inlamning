@@ -1,5 +1,3 @@
-import jdk.internal.module.ModuleInfoExtender;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
@@ -8,10 +6,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class ReadTheFile {
+public class CopyText {
     public static String ReadTheFile() {
-        Path list = Paths.get("C:\\Users\\sixte\\OneDrive\\Documents\\GitHub\\Sprint2Inlamning\\Gymlistor\\src\\Memberlist.txt");
-        Path list2 = Paths.get("C:\\Users\\sixte\\OneDrive\\Documents\\GitHub\\Sprint2Inlamning\\Gymlistor\\src\\visits.txt");
+        Path list = Paths.get("Gymlistor/src/Memberlist.txt");
+        Path list2 = Paths.get("Gymlistor/src/visits.txt");
 
         String temp = null;
         try (BufferedReader BuR = Files.newBufferedReader(list);
