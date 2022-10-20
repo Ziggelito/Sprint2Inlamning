@@ -11,7 +11,7 @@ public class PersonFinder {
 
     public void memberOrNot() {
         LocalDate today = LocalDate.now();
-        String input = JOptionPane.showInputDialog("Mata in namn eller personnummer");
+        String input = JOptionPane.showInputDialog("Mata in gästens namn eller personnummer");
 
         try (BufferedReader buf = Files.newBufferedReader(inPath);) {
             String row1;
@@ -22,8 +22,13 @@ public class PersonFinder {
                     break;
                 }
             }
+            if(input.length() < 2) {
+                JOptionPane.showMessageDialog(null, "Vänligen skriv in hela namnet eller personnumret.");
+                return;
+            }
             if(row2 == null){
                 JOptionPane.showMessageDialog(null,"Gästen finns inte");
+
             }
             else {
                 LocalDate date = LocalDate.parse(row2);
