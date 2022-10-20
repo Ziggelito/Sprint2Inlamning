@@ -22,7 +22,7 @@ public class PersonFinder {
                     break;
                 }
             }
-            if(input.length() < 2) {
+            if(input.length() < 3) {
                 JOptionPane.showMessageDialog(null, "Vänligen skriv in hela namnet eller personnumret.");
                 return;
             }
